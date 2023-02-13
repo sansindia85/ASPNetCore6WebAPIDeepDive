@@ -91,7 +91,7 @@ internal static class StartupHelperExtensions
         builder.Services.AddAutoMapper(
             AppDomain.CurrentDomain.GetAssemblies());
 
-        builder.Services.AddResponseCaching();
+        //builder.Services.AddResponseCaching();
 
         builder.Services.AddHttpCacheHeaders(
             (expirationModelOptions) =>
